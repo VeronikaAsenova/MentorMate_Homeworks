@@ -1,4 +1,4 @@
-package Task2_PerimeterOfTriangle;
+package Homework_1.Task2_PerimeterOfTriangle;
 
 import java.util.Scanner;
 

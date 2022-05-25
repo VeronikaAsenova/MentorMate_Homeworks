@@ -1,4 +1,4 @@
-package Task5_QuadraticEquation;
+package Homework_1.Task5_QuadraticEquation;
 
 import java.util.Scanner;
 

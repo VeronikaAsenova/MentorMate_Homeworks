@@ -1,4 +1,4 @@
-package Task1_StoreNames;
+package Homework_1.Task1_StoreNames;
 
 import java.util.Scanner;
 

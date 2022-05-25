@@ -1,4 +1,4 @@
-package Task3_AreaOfTriangle;
+package Homework_1.Task3_AreaOfTriangle;
 
 import java.util.Scanner;
 
