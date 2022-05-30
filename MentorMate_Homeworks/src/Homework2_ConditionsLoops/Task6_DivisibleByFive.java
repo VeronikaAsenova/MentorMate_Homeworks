@@ -1,6 +1,5 @@
-package MentorMate_Homeworks.src.Homework_2;
+package MentorMate_Homeworks.src.Homework2_ConditionsLoops;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Task6_DivisibleByFive {

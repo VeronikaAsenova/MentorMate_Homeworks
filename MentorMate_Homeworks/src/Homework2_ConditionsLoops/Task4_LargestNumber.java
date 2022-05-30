@@ -1,4 +1,4 @@
-package MentorMate_Homeworks.src.Homework_2;
+package MentorMate_Homeworks.src.Homework2_ConditionsLoops;
 
 import java.util.Scanner;
 
