@@ -153,8 +153,8 @@ public class Main {
                 "Italian", "0146122101", "Italy");
         Italian anotherItalian = new Italian("Francheska", "female", "Islam", "Italian", "waitress",
                 "Italian", "9902021313", "Italy");
-        Italian thirdItalian = new Italian("Marco", "male", "Catholic", "Italian", "steward",
-                "Italian", "0350121020", "Italy");
+        Italian thirdItalian = new Italian("Marco", "male", "Catholic", "Italian", "null",
+                "Italian", "0850121020", "Italy");
 
         italian.sayHello();
         anotherItalian.sayHello();
@@ -177,6 +177,12 @@ public class Main {
         italian.isSteward();
         anotherItalian.isSteward();
         thirdItalian.isSteward();
+
+        System.out.println();
+
+        italian.canTakeLoan();
+        anotherItalian.canTakeLoan();
+        thirdItalian.canTakeLoan();
 
 
     }
