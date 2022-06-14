@@ -146,5 +146,38 @@ public class Main {
         anotherAmerican.canEnterInAChurch();
         thirdAmerican.canEnterInAChurch();
 
+        System.out.println();
+
+        //Calling Italian
+        Italian italian = new Italian("Marco", "male", "Catholic", "Italian", "steward",
+                "Italian", "0146122101", "Italy");
+        Italian anotherItalian = new Italian("Francheska", "female", "Islam", "Italian", "waitress",
+                "Italian", "9902021313", "Italy");
+        Italian thirdItalian = new Italian("Marco", "male", "Catholic", "Italian", "steward",
+                "Italian", "0350121020", "Italy");
+
+        italian.sayHello();
+        anotherItalian.sayHello();
+        thirdItalian.sayHello();
+
+        System.out.println();
+
+        italian.isAdult();
+        anotherItalian.isAdult();
+        thirdItalian.isAdult();
+
+        System.out.println();
+
+        italian.eightOfMarchPromo();
+        anotherItalian.eightOfMarchPromo();
+        thirdItalian.eightOfMarchPromo();
+
+        System.out.println();
+
+        italian.isSteward();
+        anotherItalian.isSteward();
+        thirdItalian.isSteward();
+
+
     }
 }
