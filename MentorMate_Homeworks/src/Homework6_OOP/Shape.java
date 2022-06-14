@@ -31,6 +31,11 @@ abstract class Shape {
         }
     }
 
+    public Shape() {
+        this.color = color;
+        this.isFilled = isFilled;
+    }
+
     @Override
     public String toString() {
         return "Shape{" +

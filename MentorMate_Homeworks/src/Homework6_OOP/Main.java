@@ -55,11 +55,17 @@ public class Main {
 
         System.out.println();
 
-        Shape s4 = new Square(6.6, "red", true);
+        Square s4 = new Square(6.6, "red", true);
         System.out.println(s4);
         System.out.println(s4.getArea());
         System.out.println(s4.getColor());
         System.out.println(((Square) s4).getSide());
+
+//        Shape s4 = new Square(6.6, "red", true);
+//        System.out.println(s4);
+//        System.out.println(s4.getArea());
+//        System.out.println(s4.getColor());
+//        System.out.println(((Square) s4).getSide());
 
     }
 }

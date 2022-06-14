@@ -1,6 +1,6 @@
 package MentorMate_Homeworks.src.Homework6_OOP;
 
-public class Square extends Rectangle{
+public class Square extends Rectangle {
 
     public double side;
 
@@ -11,6 +11,10 @@ public class Square extends Rectangle{
         this.isFilled = isFilled;
     }
 
+    public Square(String color, Boolean isFilled) {
+        this.color = color;
+        this.isFilled = isFilled;
+    }
 
     public double getSide() {
         return side;
@@ -22,12 +26,12 @@ public class Square extends Rectangle{
 
     @Override
     double getArea() {
-        return side*side;
+        return side * side;
     }
 
     @Override
     double getPerimeter() {
-        return 4*side;
+        return 4 * side;
     }
 
     @Override
