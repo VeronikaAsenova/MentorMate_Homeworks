@@ -5,15 +5,8 @@ public class Square extends Rectangle {
     public double side;
 
     public Square(double side, String color, Boolean isFilled) {
-        super();
+        super(color,isFilled);
         this.side = this.side;
-        this.color = color;
-        this.isFilled = isFilled;
-    }
-
-    public Square(String color, Boolean isFilled) {
-        this.color = color;
-        this.isFilled = isFilled;
     }
 
     public double getSide() {
